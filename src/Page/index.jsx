@@ -12,10 +12,13 @@ const HeaderRow = styled(Row)`
   top: 0;
   left: 0;
   height: 10vh;
-  padding: 1rem 5rem;
+  margin: 1rem 5rem;
   display: flex;
   justify-content: ;
   align-items: center;
+   {
+    border-bottom: 1px solid #000;
+  }
 `;
 
 const Logo = styled.a`
